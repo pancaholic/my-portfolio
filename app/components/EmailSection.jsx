@@ -40,6 +40,7 @@ const EmailSection = () => {
             <p className="text-[#ADB7BE] mb-4 max-w-md font-bold">
                 Phone: +6281382338757
             </p>
+            
             <div className="socials flex flex-row gap-2">
                 <Link href="https://github.com/MrNewbies">
                     <Image src={GithubIcon} alt="Github Icon"/>
