@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const HeroSection = () => {
 
     const handleClick = () => {
-        const targetElement = document.getElementById("scrollTarget");
+        const targetElement = document.getElementById("contact");
     
         if (targetElement) {
           targetElement.scrollIntoView({ behavior: "smooth" });
