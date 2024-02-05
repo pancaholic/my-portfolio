@@ -1,16 +1,16 @@
 "use client";
-import React from 'react';
-import Image from 'next/image';
-import { TypeAnimation } from 'react-type-animation';
+import React from "react";
+import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
 const HeroSection = () => {
 
     const handleClick = () => {
-        const targetElement = document.getElementById('scrollTarget');
+        const targetElement = document.getElementById("scrollTarget");
     
         if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
+          targetElement.scrollIntoView({ behavior: "smooth" });
         }
       };
 
@@ -31,11 +31,11 @@ const HeroSection = () => {
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                'Putra Panca',
+                                "Putra Panca",
                                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                'a Web Developer',
+                                "a Web Developer",
                                 1000,
-                                'a UI/UX Designer',
+                                "a UI/UX Designer",
                                 1000
                             ]}
                             wrapper="span"
@@ -44,7 +44,7 @@ const HeroSection = () => {
                         />
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                "Let the pursuit of science be a beacon of hope for mankind, guiding us towards solutions that transcend boundaries and uplift humanity. "
+                &quot;Let the pursuit of science be a beacon of hope for mankind, guiding us towards solutions that transcend boundaries and uplift humanity.&quot;
                 </p>
                 <div>
                     <button onClick={handleClick} className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 via-secondary-500 to-secondary-700 hover:bg-slate-200 text-white">
@@ -63,7 +63,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, scale: 0.5}} 
             animate={{ opacity: 1, scale: 1}} 
             transition={{ duration: 0.5 }} className="col-span-4 place-self-center mt-4 lg:mt-0">
-                <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
+                <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
                     <Image
                         src="/images/profile.png"
                         alt="profile image"
