@@ -53,7 +53,7 @@ const projectsData = [
         description: "Simple mobile game using python library called turtle, the concept is inspired by a spacewar! game in the 60's",
         image: "/images/spacewar.png",
         tag: ["All", "Mobile"],
-        gitUrl: "https://github.com/MrNewbies/simple-calculator",
+        gitUrl: "https://github.com/pancaholic/spacewar",
         previewUrl: "/",
     },
 ];
